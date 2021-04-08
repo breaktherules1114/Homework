@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./app.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body class="background-img">
+    
+    <div class="main">
+        <h1>Sign in with</h1>
+        <div class="core">
+            <div class="item">
+                <img class="fb" src="./img/fb.png" alt="facebook">
+                <img class="gg" src="./img/gg.png" alt="google">
+            </div>
+            <div class="username">
+                <p class="user-title">Username</p>
+                <input class="username-input" id="username" type="text">
+            </div>
+            <div class="password">
+                <div class="password-title">
+                    <p class="password-main-title">Password</p>
+                    <a href="#" class="forgot">Forgot?</a>
+                </div>
+                <input class="password-input" type="password" name="password" id="password">
+            </div>
+            <button id="signin" onclick="getvalue()"><p class="signin">Sign in</p></button>
+            
+            <div class="signup">
+                <i class="not-a-member">Not a member?</i>
+                <a href="#" class="sign-up-now">Sign up now</a>
+            </div>
+        </div>
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>

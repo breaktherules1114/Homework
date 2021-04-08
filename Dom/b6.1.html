@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset=utf-8 />
+    <title>Remove items from a dropdown list</title>
+</head>
+
+<body>
+
+    <form>
+        <select id="colorSelect">
+            <option>Red</option>
+            <option>Green</option>
+            <option>White</option>
+            <option>Black</option>
+        </select>
+        <input type="text" id='textField'>
+        <input type="button" onclick="addcolor(textField.value)" value="Select and Add">
+    </form>
+    <script>
+        function addcolor(y) {
+
+            let x = colorSelect.innerHTML;
+            let str = x + '<option>' + y + '</option>';
+            colorSelect.innerHTML = str;
+        }
+
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,125 @@
+*{
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+    height: 100%;
+}
+body {
+    height:100%;
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+}
+.background-img {
+    background-image: url("./img/7a204e656b133a204ed91b03a7bfec95dc61f613_s2_n1.png");
+    min-height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+.main{
+    background-color: #fff;
+    width: 40%;
+    height: 70%;
+    border-radius: 20px;
+    position: absolute;
+    top: 15%;
+    left: 30%;
+}
+h1{
+    color: rgb(85, 85, 85);
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    padding: 60px 0;
+}
+.core{
+    position: absolute;
+    width: 65%;
+    height: 75%;
+    left: 17.5%;
+}
+.item{
+    display: flex;
+    justify-content: space-between;
+}
+.fb{
+    width: 48%;
+    margin-right: 10px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 50%);
+}
+.gg{
+    width: 48%;
+    margin-left: 10px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 50%);
+}
+.fb, .gg {
+    cursor: pointer;
+}
+.username{
+    margin-top: 50px;
+}
+.user-title{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(85, 85, 85) ;
+    padding-bottom: 2%;
+}
+.username-input, .password-input{
+    width: 100%;
+    padding: 4% 0;
+    background-color: rgb(240, 240, 240);
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    font-size: 130%;
+    outline: none;
+    padding-left: 10px;
+}
+.password {
+    padding-top: 5%;
+    padding-bottom: 2%;
+}
+.password-title{
+    display: flex;
+}
+.password-main-title{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(85, 85, 85) ;
+}
+.forgot{
+    padding-left: 2%;
+    color: rgb(167, 167, 167);
+}
+#signin {
+    margin-top: 5%;
+    height: 13%;
+    width: 100%;
+    border-radius: 10px;
+    cursor: pointer;
+    outline: none;
+}
+.signin{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    background-color: rgb(68, 68, 68);
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 7px;
+}
+.signup{
+    position: absolute;
+    bottom: 5%;
+    left: 30%;
+    color: rgb(167, 167, 167);
+    font-weight: bold;
+    font-style:inherit;
+}
+.sign-up-now{
+    color: rgb(167, 167, 167);
+}
