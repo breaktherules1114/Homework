@@ -1,2 +1,14 @@
-import{hanghoa} from "./hanghoa.js";
-hanghoa 
+import hanghoa from "./hanghoa.js";
+import storage from "./storage.js";
+import giadung from "./giadung.js";
+import quanao from "./quanao.js";
+import food from "./food.js";
+let gun = new giadung(1,"glock",500,"nato","17/08");
+let ao = new quanao(2,"shirt",500,"China","17/08");
+let pho = new food(3,"phở bò",500,"Nam Định","17/08");
+let stuff = new storage([gun,ao,pho]);
+console.log(stuff); 
+//listKhoHang.nhaphangHoa(ao);
+stuff.banhang(1);
+stuff.banhang(2);
+stuff.doanhthu();

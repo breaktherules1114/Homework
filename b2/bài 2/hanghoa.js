@@ -1,4 +1,4 @@
-export class hanghoa{
+export default class hanghoa{
     dinhdanh;
     ten;
     giathanh;

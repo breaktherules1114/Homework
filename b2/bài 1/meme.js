@@ -1,4 +1,4 @@
-export class Meme{
+export default class Meme{
     id;
     name;
     image;
@@ -24,5 +24,6 @@ export class Meme{
         document.getElementById('name').textContent = this.name;
         document.getElementById('date').textContent = this.dateModified;
         document.getElementById('url').src=this.image;
+        console.log(this.name, this.image)
     }
 }
